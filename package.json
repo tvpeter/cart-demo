@@ -11,14 +11,16 @@
     "sasslint": "sass-lint -c .sass-lint.yml -v -f table"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0",
     "live-server": "^1.2.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "sass-lint": "^1.13.1",
     "tjw-sasslint-rules": "^2.1.0"
   },
   "keywords": [],
   "author": "TheJaredWilcurt/Gwendolyn Faraday",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
 }
